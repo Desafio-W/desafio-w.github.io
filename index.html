@@ -73,9 +73,9 @@
             $(".total").text(questions.length);
 
             $("#search-input").on("keyup", function () {
-                var value = $(this).val().toLowerCase();
+                var value = $(this).val().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
                 $("#datatable tr:not(:first-child)").filter(function () {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                    $(this).toggle($(this).text().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").indexOf(value) > -1);
                 });
             });
         });
