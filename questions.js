@@ -1,5 +1,13 @@
 var questions = [
     {
+        "q": "Chianti fica em que região da Itália?",
+        "a": "Toscana"
+    },
+    {
+        "q": 'O que significa o tempo "LLICORELLA"?',
+        "a": "Um tipo de solo do Priorato na Espanha"
+    },
+    {
         "q": "Qual das regiões abaixo é uma Denominação de Origem da Espanha",
         "a": "Rioja"
     },
