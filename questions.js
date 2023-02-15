@@ -1,5 +1,25 @@
 var questions = [
     {
+        "q": "O que é Melon de Bourgogne?",
+        "a": "Uma uva branca do Vale do Loire"
+    },
+    {
+        "q": "Syrah é um cruzamento entre quais uvas?",
+        "a": "Dureza e Mondeuse Blanche"
+    },
+    {
+        "q": "Quais as uvas tintas famosas de Bordeaux?",
+        "a": "Merlot e Cabernet Sauvignon"
+    },
+    {
+        "q": "Qual o país que menos sofreu com a Filoxera devido à suas barreiras Naturais, como os Andes?",
+        "a": "Chile"
+    },
+    {
+        "q": "Quais os principais objetivos do Decanter?",
+        "a": "Aerar e decantar o vinho."
+    },
+    {
         "q": "Chianti fica em que região da Itália?",
         "a": "Toscana"
     },
