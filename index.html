@@ -26,6 +26,7 @@
 
                 <div class="form-outline mb-4">
                     <input type="text" class="form-control" id="search-input" placeholder="Search..." />
+                    <div id="shortcuts"><label class="form-label"><a href="javascript:void(0);" data-val="">🧹</a></label></div>
                 </div>
                 <div id="datatable">
                     <table class="table">
@@ -64,19 +65,55 @@
         integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <script src="questions.js"></script>
     <script>
-        var root = document.getElementById('root');
-        questions.forEach(element => root.insertAdjacentHTML('beforebegin', `<tr><td>${element.q}</td><td>${element.a}</td></tr>`));
 
         $(document).ready(function () {
-            console.log(questions.length);
-            $(".total").text(questions.length);
 
-            $("#search-input").on("keyup", function () {
-                var value = $(this).val().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-                $("#datatable tr:not(:first-child)").filter(function () {
-                    $(this).toggle($(this).text().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").indexOf(value) > -1);
-                });
+            var root = document.getElementById('root');
+            questions.forEach(element => root.insertAdjacentHTML('beforebegin', `<tr><td>${element.q}</td><td>${element.a}</td></tr>`));
+
+            let cloud = "";
+            questions.forEach(e => cloud += (e.q + e.a).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-zA-Z0-9 ]/g, '') + " ");
+
+            let wordCounts = {};
+            let words = cloud.split(/\b/);
+
+            for (let i = 0; i < words.length; i++)
+                wordCounts[words[i]] = (wordCounts[words[i]] || 0) + 1;
+
+
+            let removableWords = [' ', '  ', 'de', 'e', 'a', 'o', 'que', 'qual', 'do', 'na', 'da', 'com', 'um', 'em', 'para', 'no', 'uma', 'quais', 'das', 'as', 'sao', 'como', 'os'];
+            removableWords.forEach(function (removableWord) {
+                delete wordCounts[removableWord];
             });
+
+            let sortable = [];
+            for (let word in wordCounts) {
+                sortable.push([word, wordCounts[word]]);
+            }
+            sortable.sort(function (a, b) {
+                return a[1] - b[1];
+            }).reverse();
+
+            // var shorcuts = document.getElementById('shortcuts');
+            // console.log(sortable.slice(0, 10));
+            // sortable.slice(0, 10).forEach(element => shorcuts.insertAdjacentHTML('beforebegin', `<label class="form-label"><a href="javascript:void(0);" onClick=\'document.getElementById("search-input").value = "${element[0]}"\'>${element[0]}</a></label>  `));
+
+            setTimeout(function () {
+                $(".total").text(questions.length);
+
+                $("#search-input").on("keyup", function () {
+                    let value = $(this).val().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                    $("#datatable tr:not(:first-child)").filter(function () {
+                        $(this).toggle($(this).text().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").indexOf(value) > -1);
+                    });
+                });
+
+                sortable.slice(0, 10).forEach(element => $("#shortcuts").append(' - <label class="form-label"><a href="javascript:void(0);" data-val="' + element[0] + '">' + element[0] + '</a></label>'));
+
+                $("#shortcuts a").click(function () {
+                    $("#search-input").val($(this).data('val')).keyup();
+                });
+            }, 300);
         });
 
     </script>
