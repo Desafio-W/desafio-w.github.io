@@ -1,5 +1,49 @@
 var questions = [
     {
+        "q": 'Um vinho "Blanc de Noir" é:',
+        "a": "Vinho branco feito com uvas tintas"
+    },
+    {
+        "q": "Região vitivinícola famosa de Portugal?",
+        "a": "Vinho Verde"
+    },
+    {
+        "q": "Qual a maneira MENOS indicada para segurar a taça?",
+        "a": "Pelo bojo"
+    },
+    {
+        "q": "O que é um vin Doux Naturel?",
+        "a": "Fortificado por mutage com brandy de uva com 95% de álcool"
+    },
+    {
+        "q": 'O que significa o termo "Sekt"?',
+        "a": "Espumante da Alemanha"
+    },
+    {
+        "q": "Qual a melhor harmonização com a uva Tannat?",
+        "a": "Carne vermelha como um belo churrasco"
+    },
+    {
+        "q": 'O que significa o termo "Tuffeau"?',
+        "a": "Um tipo de solo de giz"
+    },
+    {
+        "q": "Qual a sesnsação o tanino causa na boca?",
+        "a": "Dá sensação de secura."
+    },
+    {
+        "q": "Quantas castas são autorizadas para a produção de champagne?",
+        "a": "7"
+    },
+    {
+        "q": "A Tannat se tornou uva emblemática de que país?",
+        "a": "Uruguai"
+    },
+    {
+        "q": "Qual a uva TINTA principal de Calatayud, Espanha?",
+        "a": "Garnacha"
+    },
+    {
         "q": "O que é Melon de Bourgogne?",
         "a": "Uma uva branca do Vale do Loire"
     },
