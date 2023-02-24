@@ -1,5 +1,37 @@
 var questions = [
     {
+        "q": 'O que seria um vinho bouchonné?',
+        "a": "Doença na rolha que influencia nas características do vinho."
+    },
+    {
+        "q": 'O que seria um vinho de safra?',
+        "a": "É o ano em que as uvas foram colhidas para que o vinho fosse produzido."
+    },
+    {
+        "q": 'Champage é feito em que região?',
+        "a": "Champagne"
+    },
+    {
+        "q": 'Qual a região francesa é conhecida como o berço da uva Chardonnay?',
+        "a": "Bourgogne (Borgonha)"
+    },
+    {
+        "q": 'Quais são as uvas TINTAS famosas da Espanha?',
+        "a": "Tempranillo, Garnacha e Monastrell"
+    },
+    {
+        "q": 'Um vinho de cor rubi intensa é:',
+        "a": "Um vinho tinto"
+    },
+    {
+        "q": 'Quais as uvas BRANCAS mais famosas do Norte do Rhône, França?',
+        "a": "Viognier, Marsanne e Roussanne"
+    },
+    {
+        "q": 'O que dá cor ao vinho?',
+        "a": "Contato da casca da uva com o mosto"
+    },
+    {
         "q": 'Um vinho "Blanc de Noir" é:',
         "a": "Vinho branco feito com uvas tintas"
     },
