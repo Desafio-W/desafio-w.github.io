@@ -1,5 +1,29 @@
 var questions = [
     {
+        "q": 'Quais as 3 principais uvas do corte bordalês?',
+        "a": "Cabernet Sauvignon, Merlot e Cabernet Franc."
+    },
+    {
+        "q": 'O aroma de baunilha indica o que?',
+        "a": "Que o vinho estagiou passou por carvalho americano e obteve esse aroma"
+    },
+    {
+        "q": 'Qual das regiões abaixo é uma Denominação de Origem de Portugal?',
+        "a": "Vinho Verde"
+    },
+    {
+        "q": 'Quais são as principais características de um vinho biodinâmico?',
+        "a": "Práticas orgânicas, mínima intervenção e influência dos astros"
+    },
+    {
+        "q": 'Primitivo é uma uva de destaque em que país?',
+        "a": "Itália"
+    },
+    {
+        "q": 'São uvas BRANCAS de Portugal:',
+        "a": "Encruzado e Fernão Pires"
+    },
+    {
         "q": 'O que seria um vinho bouchonné?',
         "a": "Doença na rolha que influencia nas características do vinho."
     },
