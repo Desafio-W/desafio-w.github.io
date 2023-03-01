@@ -1,5 +1,21 @@
 var questions = [
     {
+        "q": 'Quais as uvas TINTAS que são destaque no Vale do Loire, França?',
+        "a": "Cabernet Franc e Gamay"
+    },
+    {
+        "q": 'Sobre as lágrimas do vinho é correto afirmar que:',
+        "a": "As lágrimas indicam teor de açucar, teor de álcool e corpo do vinho"
+    },
+    {
+        "q": 'Aroma de pêssego indica que o vinho é elaborado com esta fruta?',
+        "a": "Não, indica um aroma de fruta que vêm da fermentação"
+    },
+    {
+        "q": 'Qual o recipiente mais indicado para tomar vinho?',
+        "a": "Taça"
+    },
+    {
         "q": 'Quais as 3 principais uvas do corte bordalês?',
         "a": "Cabernet Sauvignon, Merlot e Cabernet Franc."
     },
@@ -98,10 +114,6 @@ var questions = [
     {
         "q": "Qual a uva TINTA principal de Calatayud, Espanha?",
         "a": "Garnacha"
-    },
-    {
-        "q": "O que é Melon de Bourgogne?",
-        "a": "Uma uva branca do Vale do Loire"
     },
     {
         "q": "Syrah é um cruzamento entre quais uvas?",
