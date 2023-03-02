@@ -1,5 +1,25 @@
 var questions = [
     {
+        "q": 'Qual medida certa para servir o vinho tinto na taça?',
+        "a": "1/3 da taça"
+    },
+    {
+        "q": 'Quais as famosas uvas brancas de Bordeaux?',
+        "a": "Sémillon e Sauvignon Blanc"
+    },
+    {
+        "q": 'Corbières é uma AOC de qual região vitivinícola francesa?',
+        "a": "Languedoc"
+    },
+    {
+        "q": 'Qual a uva BRANCA que elabora a Fumé Blanc?',
+        "a": "Sauvignon Blanc"
+    },
+    {
+        "q": 'A Chardonnay é considerada a rainha das uvas em qual região?',
+        "a": "Borgonha"
+    },
+    {
         "q": 'Quais as uvas TINTAS que são destaque no Vale do Loire, França?',
         "a": "Cabernet Franc e Gamay"
     },
