@@ -1,5 +1,21 @@
 var questions = [
     {
+        "q": 'Qual a principal uva da Austrália?',
+        "a": "Shiraz"
+    },
+    {
+        "q": 'Assinale a ERRADA:',
+        "a": "Vinho branco harmoniza com mousse de chocolate amargo"
+    },
+    {
+        "q": 'Abaixo, qual dos países não integra o Velho Mundo?',
+        "a": "África do Sul"
+    },
+    {
+        "q": 'Qual o clima de Champagne?',
+        "a": "Continental"
+    },
+    {
         "q": 'Qual medida certa para servir o vinho tinto na taça?',
         "a": "1/3 da taça"
     },
