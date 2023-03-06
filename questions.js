@@ -1,11 +1,19 @@
 var questions = [
     {
-        "q": '',
-        "a": ""
+        "q": 'Barolo é de que país?',
+        "a": "Itália"
     },
     {
-        "q": '',
-        "a": ""
+        "q": 'O que fez a Winehunter decidir por essa carreira no vinho?',
+        "a": "Um sonho"
+    },
+    {
+        "q": 'Qual o outro nome da Tinta Roriz?',
+        "a": "Aragonez"
+    },
+    {
+        "q": 'O que é blend?',
+        "a": "A mistura de dois ou mais tipos de uvas para elaboração de  um vinho"
     },
     {
         "q": 'Qual destas uvas tem maior representatividade na produção de vinhos em Rioja/Espanha?',
