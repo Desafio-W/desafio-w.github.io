@@ -1,5 +1,25 @@
 var questions = [
     {
+        "q": 'A AOC Rosé des Riceys produz espumantes?',
+        "a": "Produz exclusivamente vinho rosé"
+    },
+    {
+        "q": 'Qual o outro nome da Syrah?',
+        "a": "Shiraz"
+    },
+    {
+        "q": 'Cava é de que país?',
+        "a": "Espanha"
+    },
+    {
+        "q": 'O que é "Botrytis Cinerea"?',
+        "a": "Um fungo que ataca a casca da uva, Podridão Nobre"
+    },
+    {
+        "q": 'De acordo com a legislação espanhola, um tinto Gran Reserva precisa passar no mínimo...',
+        "a": "18 meses em barricas de carvalho."
+    },
+    {
         "q": 'Barolo é de que país?',
         "a": "Itália"
     },
