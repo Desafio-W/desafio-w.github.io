@@ -1,5 +1,29 @@
 var questions = [
     {
+        "q": '',
+        "a": ""
+    },
+    {
+        "q": '',
+        "a": ""
+    },
+    {
+        "q": 'Qual destas uvas tem maior representatividade na produção de vinhos em Rioja/Espanha?',
+        "a": "Tempranillo"
+    },
+    {
+        "q": 'Qual abaixo é uma uva TINTA famosa em Nemea, na Grécia?',
+        "a": "Agiorgitiko"
+    },
+    {
+        "q": 'Qual a uva BRANCA de maior importância na Borgonha?',
+        "a": "Chardonnay"
+    },
+    {
+        "q": 'Toscana é uma região vinícola de qual país?',
+        "a": "Itália"
+    },
+    {
         "q": 'Qual a principal uva da Austrália?',
         "a": "Shiraz"
     },
