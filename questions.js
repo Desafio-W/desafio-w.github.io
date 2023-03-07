@@ -1,5 +1,13 @@
 var questions = [
     {
+        "q": 'Um vinho de corte bordalês, podemos afirmar que sua origem é:',
+        "a": "Bordeaux/França"
+    },
+    {
+        "q": 'Fundo da garrafa é sinal de qualidade?',
+        "a": "Não, isso é um mito"
+    },
+    {
         "q": 'A AOC Rosé des Riceys produz espumantes?',
         "a": "Produz exclusivamente vinho rosé"
     },
