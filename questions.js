@@ -1,5 +1,13 @@
 var questions = [
     {
+        "q": 'O que é um vinho Sauternes?',
+        "a": 'Um vinho de sobremesa de Bordeaux resultado da "podridão nobre"'
+    },
+    {
+        "q": 'Pelo que ficou conhecido Felipe "o Ousado" durante seu ducado na Borgonha?',
+        "a": "Expulsar a Gamay da da Côte d'Or"
+    },
+    {
         "q": 'Qual abaixo é uma Denominação de Origem da Califórnia (AVA)?',
         "a": "Napa valley"
     },
