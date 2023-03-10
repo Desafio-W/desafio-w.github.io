@@ -1,5 +1,53 @@
 var questions = [
     {
+        "q": '',
+        "a": ""
+    },
+    {
+        "q": 'Qual abaixo é uma Denominação de Origem da Califórnia (AVA)?',
+        "a": "Napa valley"
+    },
+    {
+        "q": 'O vinho Barolo é feito com qual destas uvas?',
+        "a": "Nebbiolo"
+    },
+    {
+        "q": 'Qual abaixo é uma uva TINTA da Grécia?',
+        "a": "Xinomavro"
+    },
+    {
+        "q": 'Qual o clima do Vale do Rhône?',
+        "a": "Continental e mediterrâneo"
+    },
+    {
+        "q": 'O que significa o termo "Romorantin"?',
+        "a": "Uva branca de Touraine, exclusiva de Cour-Cheverny AOC"
+    },
+    {
+        "q": 'Quem bebeu o "Mão de Dio" antes do tempo?',
+        "a": "Don Barbera"
+    },
+    {
+        "q": 'Loire já foi propriedade de outro país além da França?',
+        "a": "Sim, da Inglaterra"
+    },
+    {
+        "q": 'São as principais uvas TINTAS do Douro, em Portugal:',
+        "a": "Touriga Nacional, Touriga Franca, Tinta Roriz, Tinta Barroca"
+    },
+    {
+        "q": 'São vinhos DOCG famosos do Piemonte, na Itália:',
+        "a": "Barolo e Barbaresco"
+    },
+    {
+        "q": 'Qual a princiap uva branca do Loire Central?',
+        "a": "Sauvignon Blanc"
+    },
+    {
+        "q": 'O que significa o termo "Perruche"?',
+        "a": "Solo de sílex e argila de Touraine"
+    },
+    {
         "q": 'Um vinho de corte bordalês, podemos afirmar que sua origem é:',
         "a": "Bordeaux/França"
     },
