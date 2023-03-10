@@ -1,9 +1,5 @@
 var questions = [
     {
-        "q": '',
-        "a": ""
-    },
-    {
         "q": 'Qual abaixo é uma Denominação de Origem da Califórnia (AVA)?',
         "a": "Napa valley"
     },
